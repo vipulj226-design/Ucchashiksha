@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Contact - Uccha Shiksha" name="description"/>
+<title>Contact Us | Uccha Shiksha</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<style>
+        body {
+            background-color: #7e2e2e; /* Original Wix dark reddish-brown */
+            color: white;
+        }
+        .header {
+            background-color: white;
+        }
+        .contact-page-container {
+            max-width: 800px;
+            margin: 100px auto 60px;
+            padding: 40px;
+            background-color: transparent;
+            text-align: center;
+        }
+        .contact-page-container h1 {
+            font-size: 3rem;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid rgba(255,255,255,0.3);
+            background-color: transparent;
+            color: white;
+            font-size: 1rem;
+            font-family: inherit;
+            border-radius: 4px;
+        }
+        .contact-form input::placeholder, .contact-form textarea::placeholder {
+            color: rgba(255,255,255,0.7);
+        }
+        .contact-form input:focus, .contact-form textarea:focus {
+            outline: none;
+            border-color: white;
+            background-color: rgba(255,255,255,0.05);
+        }
+        .contact-form textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        .submit-btn {
+            background-color: white;
+            color: #7e2e2e;
+            padding: 15px 30px;
+            border: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 30px;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-top: 10px;
+        }
+        .submit-btn:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-2px);
+        }
+    </style>
+<!-- Favicon (multi-size for all browsers & devices) -->
+<link rel="icon" type="image/jpeg" href="assets/logo.jpg"/>
+<link rel="shortcut icon" type="image/jpeg" href="assets/logo.jpg"/>
+<link rel="apple-touch-icon" href="assets/logo.jpg"/>
+<link rel="icon" type="image/jpeg" sizes="32x32" href="assets/logo.jpg"/>
+<link rel="icon" type="image/jpeg" sizes="16x16" href="assets/logo.jpg"/>
+
+<!-- Open Graph / Social Media Thumbnails -->
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://ucchashikha.com/contact-us.html"/>
+<meta property="og:site_name" content="Uccha Shiksha"/>
+<meta property="og:title" content="Contact Us | Uccha Shiksha"/>
+<meta property="og:description" content="Contact Uccha Shiksha for higher education advisory, university admissions and course information. Email or call us Mon–Sat 10am to 6pm."/>
+<meta property="og:image" content="https://ucchashikha.com/assets/logo.jpg"/>
+<meta property="og:image:secure_url" content="https://ucchashikha.com/assets/logo.jpg"/>
+<meta property="og:image:type" content="image/jpeg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:alt" content="Uccha Shiksha - Higher Education Advisory Service"/>
+<meta property="og:locale" content="hi_IN"/>
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:url" content="https://ucchashikha.com/contact-us.html"/>
+<meta name="twitter:title" content="Contact Us | Uccha Shiksha"/>
+<meta name="twitter:description" content="Contact Uccha Shiksha for higher education advisory, university admissions and course information. Email or call us Mon–Sat 10am to 6pm."/>
+<meta name="twitter:image" content="https://ucchashikha.com/assets/logo.jpg"/>
+<meta name="twitter:image:alt" content="Uccha Shiksha - Higher Education Advisory Service"/>
+</head>
+<body>
+<!-- Header / Navbar -->
+<header class="header">
+<div class="logo-container">
+<a href="index.html">
+<img alt="Uccha Shiksha Logo" class="logo" src="assets/logo.jpg"/>
+</a>
+</div>
+<nav class="nav-menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="universities.html">Universities</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="courses-fees.html">Courses Fees</a></li>
+<li><a href="visions.html">Visions</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a class="mobile-contact-pill" href="#footer-section">Contact Us</a></li>
+</ul>
+</nav>
+<div class="cta-container">
+<a class="btn-primary" href="#footer-section">Contact Details</a>
+<!-- Mobile Menu Toggle -->
+<button aria-label="Toggle Menu" class="mobile-toggle" style="color: black;">☰</button>
+</div>
+</header>
+<!-- Mobile Navigation Overlay -->
+<div class="mobile-nav-overlay">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="universities.html">Universities</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="courses-fees.html">Courses Fees</a></li>
+<li><a href="visions.html">Visions</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a class="mobile-contact-pill" href="#footer-section">Contact Us</a></li>
+<li><a href="#footer-section" style="color: #ecc94b;">Contact Us</a></li>
+</ul>
+</div>
+<!-- Contact Form Section -->
+<main class="contact-page-container" id="contact-page-container">
+<h1>Contact Us</h1>
+<div style="background: rgba(255,255,255,0.1); padding: 40px; border-radius: 8px; margin-top: 30px; display: inline-block; text-align: left;">
+<p style="font-size: 1.3rem; margin-bottom: 15px;"><strong>Email:</strong> <a href="mailto:ucchashiksha.admission@gmail.com" style="color: #fff; text-decoration: underline;">ucchashiksha.admission@gmail.com</a></p>
+<p style="font-size: 1.3rem; margin-bottom: 15px;"><strong>Mobile:</strong> <a href="tel:+919109723868" style="color: #fff; text-decoration: underline;">+91 9109723868</a></p>
+<p style="font-size: 1.3rem; margin-bottom: 0;"><strong>Office Timing:</strong> Mon to Sat (10 am to 6 pm)</p>
+</div>
+</main>
+<!-- Footer -->
+<footer class="footer" id="footer-section" style="background-color: white; color: #333;">
+<div class="container footer-content">
+<div class="footer-graphic-col">
+<img alt="Uccha Shiksha Logo" class="footer-graphic" src="assets/logo.jpg"/>
+</div>
+<div class="footer-details-col">
+<div class="contact-box" style="background-color: #f9f9f9;">
+<span class="btn-primary" style="margin-bottom: 30px; display: inline-block; cursor: default; pointer-events: none;">Contact Us</span>
+<h4>Email:</h4>
+<p><a href="mailto:ucchashiksha.admission@gmail.com">ucchashiksha.admission@gmail.com</a></p>
+<h4>Mobile:</h4>
+<p><a href="tel:+919109723868">+ 91 9109723868</a></p>
+<h4>Office Timing:</h4>
+<p>Monday to Saturday<br/>10 am to 1 pm<br/>3 pm to 6 pm</p>
+</div>
+</div>
+</div>
+<div class="footer-bottom" style="border-top-color: #eee;">
+<p>© 2026 Uccha Shiksha. All Rights Reserved. </p>
+</div>
+</footer>
+<!-- Floating WhatsApp Widget -->
+<div class="floating-chat" style="bottom: 30px; right: 30px; position: fixed; z-index: 1000;">
+<a href="https://wa.me/919109723868" onmouseout="this.style.transform='scale(1)'" onmouseover="this.style.transform='scale(1.05)'" style="background-color: #25D366; color: white; padding: 12px 24px; border-radius: 50px; display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 1.1rem; box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4); text-decoration: none; transition: transform 0.3s ease;" target="_blank">
+<svg fill="white" height="28" viewbox="0 0 24 24" width="28">
+<path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 3.825.001 6.938 3.113 6.938 6.937.001 3.824-3.113 6.936-6.938 6.936z"></path>
+</svg>
+            Live Chat
+        </a>
+</div>
+<script src="script.js?v=2"></script>
+</body>
+</html>
